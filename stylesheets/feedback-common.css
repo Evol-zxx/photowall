@@ -1,0 +1,283 @@
+/* css reset*/
+/* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/feedback-common.scss */
+body {
+  background: #f8f8f8;
+}
+
+/* line 6, ../sass/feedback-common.scss */
+.clearfix {
+  clear: both;
+}
+/* line 8, ../sass/feedback-common.scss */
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* line 14, ../sass/feedback-common.scss */
+.m-cont {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+/* line 18, ../sass/feedback-common.scss */
+.m-crumb {
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  color: #333;
+}
+/* line 23, ../sass/feedback-common.scss */
+.m-crumb a {
+  color: #333;
+  text-decoration: none;
+}
+/* line 27, ../sass/feedback-common.scss */
+.m-crumb span {
+  padding: 0 10px;
+}
+
+/* line 31, ../sass/feedback-common.scss */
+.feedback-cont {
+  font-family: Microsoft Yahei;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+/* line 35, ../sass/feedback-common.scss */
+.feedback-cont .hd-feedback {
+  text-indent: 1em;
+  font-size: 16px;
+  color: #333;
+  background: #f8f8f8;
+  height: 40px;
+  line-height: 40px;
+}
+/* line 43, ../sass/feedback-common.scss */
+.feedback-cont .bd-feedback {
+  padding: 30px;
+}
+/* line 45, ../sass/feedback-common.scss */
+.feedback-cont .bd-feedback .remind {
+  font-size: 12px;
+  color: #666;
+  background: #fffbf6;
+  border: 1px solid #f6dec0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+/* line 53, ../sass/feedback-common.scss */
+.feedback-cont .bd-feedback textarea,
+.feedback-cont .bd-feedback input[type='text'],
+.feedback-cont .bd-feedback input[type='submit'] {
+  outline: none;
+  font-family: Microsoft Yahei;
+  display: block;
+}
+/* line 60, ../sass/feedback-common.scss */
+.feedback-cont .bd-feedback textarea {
+  border: 1px solid #ddd;
+  width: 98%;
+  height: 140px;
+  padding: 1%;
+  margin-bottom: 20px;
+  resize: none;
+}
+/* line 68, ../sass/feedback-common.scss */
+.feedback-cont .bd-feedback input[type='text'] {
+  width: 250px;
+  border: 1px solid #ddd;
+  padding: 4px;
+  text-indent: 0.5em;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+/* line 76, ../sass/feedback-common.scss */
+.feedback-cont .bd-feedback input[type='submit'] {
+  font-size: 18px;
+  width: 96px;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  background: #ff6600;
+  text-align: center;
+  outline: none;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+}
+/* line 90, ../sass/feedback-common.scss */
+.feedback-cont .feedback-list {
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 30px;
+}
+/* line 93, ../sass/feedback-common.scss */
+.feedback-cont .feedback-list .date {
+  display: inline-block;
+  font-size: 14px;
+  color: #999;
+  min-width: 580px;
+  margin: 0 auto;
+  transform: translateX(50%);
+  margin-bottom: 20px;
+}
+/* line 101, ../sass/feedback-common.scss */
+.feedback-cont .feedback-list .date:before {
+  content: '';
+  display: inline-block;
+  height: 1px;
+  background: #ddd;
+  width: 160px;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+/* line 110, ../sass/feedback-common.scss */
+.feedback-cont .feedback-list .date:after {
+  content: '';
+  display: inline-block;
+  height: 1px;
+  background: #ddd;
+  width: 160px;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+/* line 120, ../sass/feedback-common.scss */
+.feedback-cont .feedback-list .portrait {
+  float: left;
+}
+/* line 122, ../sass/feedback-common.scss */
+.feedback-cont .feedback-list .portrait img {
+  border-radius: 50%;
+  border: 0;
+  background: #ccc;
+}
+/* line 128, ../sass/feedback-common.scss */
+.feedback-cont .feedback-list .words {
+  border: 1px solid #ddd;
+  padding: 20px;
+  font-size: 14px;
+  color: #333;
+  position: relative;
+  float: left;
+  width: 945px;
+  margin-left: 20px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+/* line 139, ../sass/feedback-common.scss */
+.feedback-cont .feedback-list .words:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -8px;
+  top: 10px;
+  background: url("../images/caret.png") no-repeat;
+  width: 8px;
+  height: 14px;
+}
+/* line 152, ../sass/feedback-common.scss */
+.feedback-cont .reply .portrait {
+  float: right;
+}
+/* line 155, ../sass/feedback-common.scss */
+.feedback-cont .reply .words {
+  float: right;
+  margin-right: 20px;
+  background: #f8f8f8;
+}
+/* line 159, ../sass/feedback-common.scss */
+.feedback-cont .reply .words:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 985px;
+  top: 10px;
+  background: url("../images/caret2.png") no-repeat;
+  width: 8px;
+  height: 14px;
+}
+.feedback-detail{
+    font-size: 24px;
+    color: #333;
+}
+.feedback-detail:before{
+    content: '';
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../images/icon-ok.png") no-repeat;
+    margin-right: 20px;
+}
+.feedback-detail a{
+    text-decoration: none;
+    color:#3b83cb;
+    font-size:14px;
+    display:block;
+    padding-left:80px;
+}
